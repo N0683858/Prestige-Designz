@@ -25,11 +25,23 @@
 }
 
 /*** Projects ***/
-.jumbotron #greenfell{
-	width: 50%;
-	height: 50%;
-
+#Greenfell{
+	background-color: #243c4b;
+	color: white;
+	padding-bottom: 2em;
+	padding-top: 3em;
+	margin-bottom:0px;
 }
+
+#RefugeeCrisis{
+	background: none;
+	padding-bottom: 2em;
+	padding-top: 3em;
+/*	background-color: #f7f7f7;*/
+	margin-top: 0px;
+}
+
+
 
 
 /* Reset */
