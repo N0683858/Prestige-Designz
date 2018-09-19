@@ -17,20 +17,20 @@
 
 #blockquote{
 	font-size: 2em;
-	font-family: 'Merriweather Sans';
+	font-family: 'Nunito', sans-serif;;
 }
 
 #header #active{
 	color: #e5474b;
 }
 
-/*** About ***/
-/*
-#letter_p{
-	font-size: 2em;
-	color: black;
+/*** Projects ***/
+.jumbotron #greenfell{
+	width: 50%;
+	height: 50%;
+
 }
-*/
+
 
 /* Reset */
 
