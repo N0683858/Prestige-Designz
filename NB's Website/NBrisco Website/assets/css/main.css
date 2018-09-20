@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 /*
 	Introspect by TEMPLATED
@@ -8,16 +9,30 @@
 */
 
 
-/**** Quotation ****/
+/************************* Quotation ***********************/
+#about_me{
+	text-align: justify;
+}
+
+#sitename{
+	font-family: 'Pacifico';
+	color: #e5474b;
+}
+
 #naeem_quote{
 	font-family: 'Pacifico';
 	color: #e5474b;
 	font-size: 2em;
 }
 
+.inner h4{
+	margin-top:2em;
+}
+
 #blockquote{
 	font-size: 2em;
-	font-family: 'Nunito', sans-serif;;
+	font-family: 'Nunito', sans-serif;
+	margin-top: 1.5em;
 }
 
 #header #active{
@@ -25,24 +40,75 @@
 }
 
 /*** Projects ***/
-#Greenfell{
+#Greenfell, #Orphans, #Lesvos{
 	background-color: #243c4b;
 	color: white;
-	padding-bottom: 2em;
-	padding-top: 3em;
+	padding:auto;
 	margin-bottom:0px;
+	text-align: justify;
 }
 
-#RefugeeCrisis{
+#RefugeeCrisis, #Dialysis{
 	background: none;
-	padding-bottom: 2em;
-	padding-top: 3em;
-/*	background-color: #f7f7f7;*/
+	padding: auto;
+	background-color: transparent;
 	margin-top: 0px;
+	margin-bottom:0px;
+	text-align: justify;
 }
 
+#contact{
+	margin: auto;
+	width: 70%;
+}
+
+hr{
+	margin: 3em;
+}
+
+footer{
+	background-color: #1c1c1c;
+	color: #d5d5d5;
+}
+
+footer a{
+	color: #e5474b;
+}
+
+/***************  Media Queries  ********************/
+	@media screen and (max-width: 980px) {
+		
+
+	}
+		@media screen and (max-width: 736px){
 
 
+		}
+			@media screen and (max-width: 425px){
+
+			}
+
+				@media screen and (max-width: 395px){
+
+					#Greenfell .image.left, #Orphans .image.left, #Lesvos .image.left{
+						display: none;
+					}
+
+					#RefugeeCrisis .image.right, #Dialysis .image.right{
+						display:none;
+					}
+
+
+					#blockquote{
+						font-size: 1.5em;
+					}
+				}
+
+
+
+
+
+/**************************************** Code by TEMPLATED *****************************/ 
 
 /* Reset */
 
