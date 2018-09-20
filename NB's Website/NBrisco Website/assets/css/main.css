@@ -9,7 +9,6 @@
 */
 
 
-/************************* Quotation ***********************/
 #about_me{
 	text-align: justify;
 }
@@ -31,7 +30,7 @@
 
 #blockquote{
 	font-size: 2em;
-	font-family: 'Nunito', sans-serif;
+	font-family: Nunito;
 	margin-top: 1.5em;
 }
 
@@ -55,6 +54,13 @@
 	margin-top: 0px;
 	margin-bottom:0px;
 	text-align: justify;
+	border-width: 0 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+#slider{
+	width: 30%;
 }
 
 #contact{
@@ -75,30 +81,40 @@ footer a{
 	color: #e5474b;
 }
 
+footer a:hover{
+	color: white;
+}
+
+footer a #SiteName{
+	font-family: 'Pacifico';
+	font-size: 2rem;
+
+}
+
+
+
+
 /***************  Media Queries  ********************/
 	@media screen and (max-width: 980px) {
 		
 
 	}
 		@media screen and (max-width: 736px){
+			#Greenfell .image.left, #Orphans .image.left, #Lesvos .image.left{
+				display: none;
+			}
 
+			#RefugeeCrisis .image.right, #Dialysis .image.right{
+				display:none;
+			}
 
 		}
 			@media screen and (max-width: 425px){
 
+
 			}
 
 				@media screen and (max-width: 395px){
-
-					#Greenfell .image.left, #Orphans .image.left, #Lesvos .image.left{
-						display: none;
-					}
-
-					#RefugeeCrisis .image.right, #Dialysis .image.right{
-						display:none;
-					}
-
-
 					#blockquote{
 						font-size: 1.5em;
 					}
