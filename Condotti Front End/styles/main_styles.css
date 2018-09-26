@@ -258,7 +258,8 @@ section
 }
 .section_title
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 60px;
 	text-transform: uppercase;
 	color: #2f2f2f;
@@ -336,7 +337,8 @@ section
 
 .logo a
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 30px;
 	color: #2f2f2f;
 }
@@ -537,6 +539,9 @@ section
 
 .home
 {
+	margin-top: 4em;
+	padding-left: 62px;
+	padding-right: 62px;
 	width: 100%;
 	height: 904px;
 	background: #FFFFFF;
@@ -580,7 +585,8 @@ section
 }
 .home_slider_title
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 72px;
 	color: #FFFFFF;
 	height: 99px;
@@ -605,7 +611,8 @@ section
 	padding-left: 34px;
 	padding-right: 34px;
 	line-height: 37px;
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 18px;
 	white-space: nowrap;
 }
@@ -653,7 +660,8 @@ section
 {
 	display: inline-block;
 	position: relative;
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 18px;
 	color: #FFFFFF;
 	margin-right: 7px;
@@ -823,7 +831,8 @@ section
 .promo_link a
 {
 	display: block;
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 18px;
 	color: #FFFFFF;
 	line-height: 60px;
@@ -875,7 +884,8 @@ section
 }
 .promo_title
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 30px;
 	color: #FFFFFF;
 }
@@ -1086,7 +1096,8 @@ section
 }
 .extra_1_price
 {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	/*font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 72px;
 	color: #FFFFFF;
 	line-height: 0.75;
@@ -1097,7 +1108,8 @@ section
 }
 .extra_1_title
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 30px;
 	color: #937c6f;
 	margin-top: 39px;
@@ -1134,7 +1146,8 @@ section
 }
 .extra_2_center
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 200px;
 	color: #937c6f;
 	line-height: 0.75;
@@ -1149,7 +1162,8 @@ section
 	position: absolute;
 	left: -50px;
 	top: -32px;
-	font-family: 'Beyond', sans-serif;
+	/*font-family: 'Beyond', sans-serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 72px;
 	line-height: 0.75;
 	color: #232323;
@@ -1159,7 +1173,8 @@ section
 	position: absolute;
 	left: -43px;
 	bottom: -28px;
-	font-family: 'Beyond', sans-serif;
+	/*font-family: 'Beyond', sans-serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 72px;
 	line-height: 0.75;
 	color: #232323;
@@ -1220,7 +1235,8 @@ section
 }
 .gallery_title ul li a
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 36px;
 	font-weight: 700;
 	color: #FFFFFF;
@@ -1266,7 +1282,8 @@ section
 }
 .test_text
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 24px;
 	color: #8a8a8a;
 	font-style: italic;
@@ -1287,7 +1304,8 @@ section
 }
 .test_name
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 16px;
 	font-weight: 700;
 	color: #232323;
@@ -1427,7 +1445,8 @@ section
 }
 .footer_logo a
 {
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 60px;
 	color: #232323;
 }
@@ -1492,7 +1511,8 @@ section
 {
 	margin-top: 56px;
 	padding-bottom: 13px;
-	font-family: 'Lucida', serif;
+	/*font-family: 'Lucida', serif;*/
+	font-family: 'EB Garamond', serif;
 	font-size: 12px;
 	color: #232323;
 }
