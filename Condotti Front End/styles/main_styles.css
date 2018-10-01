@@ -539,7 +539,7 @@ section
 
 .home
 {
-	margin-top: 4em;
+	margin-top: 10em;
 	padding-left: 62px;
 	padding-right: 62px;
 	width: 100%;
@@ -554,7 +554,7 @@ section
 .home_slider_container
 {
 	width: 100%;
-	height: 100%;
+	height: 50%;
 }
 .home_slider_background
 {
