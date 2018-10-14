@@ -1,0 +1,9 @@
+body{
+	background: url(https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6402d48f35584fbf36a874be1635374b&auto=format&fit=crop&w=1350&q=80);
+	background-size: cover;
+}
+
+.content{
+	text-align: center;
+	padding-top: 25%;
+}
