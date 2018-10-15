@@ -1,9 +1,24 @@
 body{
-	background: url(https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6402d48f35584fbf36a874be1635374b&auto=format&fit=crop&w=1350&q=80);
+	background: url(https://images.unsplash.com/photo-1518064711538-4e27e702c706?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d27c0369f194434f87a058060024cf0d&auto=format&fit=crop&w=934&q=80);
 	background-size: cover;
+	background-position: center;
+	color: white;
 }
 
 .content{
 	text-align: center;
-	padding-top: 25%;
+	padding-top: 15%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr{
+	border-color: white;
+	width: 400px;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
 }
