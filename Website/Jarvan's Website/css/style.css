@@ -1,3 +1,90 @@
 body{
-	padding-top: 70px;
+	background: url(https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=abs-adult-athlete-1229356.jpg&fm=jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr{
+	border-color: white;
+	width: 400px;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                                          NAVBAR                                        */
+/* -------------------------------------------------------------------------------------- */
+
+.navbar a{
+	color:white;
+}
+
+.navbar .navbar-brand{
+	font-size: 2em;
+}
+
+.navbar .navbar-nav a{
+	margin-left: 10%;
+}
+
+#homeLink{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	padding: 10px;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+/*                                          BLUR                                          */
+/* -------------------------------------------------------------------------------------- */
+
+#blur{
+
+  /* Dynamically sets width and height */
+  width: 100vw;
+  height: 100vh;
+
+  /* Background of element mimics the background of the main element */
+  background: inherit;
+
+  /* Position is set relative to the main container */
+  position: absolute;
+
+  /* Any content which overflows the element box is hidden */
+  overflow: hidden;
+}
+
+#blur:before{
+
+  /* Dynamically sets width and height */
+  width: 100%;
+  height: 100%;
+
+  /* Sets content to nothing */
+  content: "";
+
+  /* Position is set relative to the main element box */
+  position: absolute;
+
+  /* Background of element mimics the background of the main element */
+  background: inherit;
+
+  /* Adds a shadow to the element which sits above the main elements background image and makes it darker */
+  box-shadow: inset 0 0 0 100% rgba(255,255,255,0.2);
+
+  /* Adds the blur filter to the element which sits above the main elements background image */
+  filter: blur(5px);
 }
