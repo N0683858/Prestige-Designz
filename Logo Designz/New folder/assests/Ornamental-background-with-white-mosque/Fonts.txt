@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: Bebas, 
+Author: Flat-it, 
+Url: http://www.fontsquirrel.com/fonts/Bebas; 
+
+Font: Grand Hotel, 
+Author: Astigmatic, 
+Url: http://www.fontsquirrel.com/fonts/grand-hotel; 
+
