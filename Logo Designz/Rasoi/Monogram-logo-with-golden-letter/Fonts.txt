@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: Vollkorn, 
+Author: FRiTZe, 
+Url: http://www.fontsquirrel.com/fonts/vollkorn; 
+
+Font: Butler, 
+Author: Fabian De Smet, 
+Url: http://www.fontsquirrel.com/fonts/butler; 
+
