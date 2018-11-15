@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: Bree Serif, 
+Author: TypeTogether, 
+Url: http://www.fontsquirrel.com/fonts/bree-serif; 
+
+Font: Nautilus Pompilius, 
+Author: Punk You Brands, 
+Url: https://www.fontsquirrel.com/fonts/nautilus-pompilius; 
+

@@ -1,0 +1,18 @@
+Fonts used in this design;
+
+Font: Action Man, 
+Author: Iconian Fonts, 
+Url: http://www.fontsquirrel.com/fonts/action-man; 
+
+Font: Aller, 
+Author: Dalton Maag Ltd, 
+Url: http://www.fontsquirrel.com/fonts/aller; 
+
+Font: Amatic, 
+Author: Vernon Adams, 
+Url: http://www.fontsquirrel.com/fonts/amatic; 
+
+Font: Leckerli One, 
+Author: Gesine Todt, 
+Url: http://www.fontsquirrel.com/fonts/leckerli-one; 
+

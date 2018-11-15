@@ -1,0 +1,14 @@
+Fonts used in this design;
+
+Font: Bebas Neue, 
+Author: Fontfabric, 
+Url: http://www.fontsquirrel.com/fonts/bebas-neue; 
+
+Font: ChunkFive, 
+Author: The League of Moveable Type, 
+Url: http://www.fontsquirrel.com/fonts/chunkfive; 
+
+Font: Museo Slab, 
+Author: Exljbris, 
+Url: http://www.fontsquirrel.com/fonts/museo-slab; 
+
