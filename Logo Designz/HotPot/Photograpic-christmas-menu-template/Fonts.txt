@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: Lobster, 
+Author: Impallari Type, 
+Url: http://www.fontsquirrel.com/fonts/lobster; 
+
+Font: Montserrat, 
+Author: Julieta Ulanovsky, 
+Url: http://www.fontsquirrel.com/fonts/montserrat; 
+
