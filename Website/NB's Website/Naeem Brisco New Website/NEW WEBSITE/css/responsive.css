@@ -1,0 +1,170 @@
+@media (max-width:1200px){
+nav ul li a{padding:17px 8px}
+.shelter-service{padding:50px}
+.shelter-service h3{font-size:30px}
+.find-shelter select{width:320px}
+.find-shelter{padding:0}
+.shelter-text-carousel{padding:0}
+.video-text h3{font-size:34px}
+.video-text p{margin:0 0 20px}
+.fancy-event-details{width:80%}
+.box-text h4{margin:0 0 5px}
+.box-text{padding:10px 20px}
+.box-text p{margin:0 0 15px}
+.big-text span{font-size:15px;padding:5px 12px}
+.big-text h3{font-size:35px}
+header.transparent nav > ul > li > a{padding:5px 5px}
+.upcoming-event h3{font-size:20px}
+.dark-column-title{padding:70px 50px}
+.big-text.style2 h3{font-size:45px}
+.big-text.style2 span{margin-bottom:10px}
+.shelter-fullpage-title{margin-left:70px}
+}
+
+
+@media (max-width:980px){
+header{display:none}
+.responsive-header{display:block; background-color:#666;}
+header.transparent ~ .pagetop{padding-top:110px}
+.shelter-services{margin:0}
+.shelter-featured-text{position:relative;float:left;width:100%;top:auto;transform:none;background:#333;padding:60px 20px}
+.shelter-img-carousel{float:left;width:100}
+.cause-bg{width:100%}
+.cause-inner{width:100%;top:50%;border:0;box-shadow:none}
+.cause-inner img{display:none}
+.cause-text{position:relative;bottom:auto;transform:none;width:auto;padding:0 20px;text-align:;text-align:center}
+.find-shelter h3{padding:0}
+.find-shelter .find-form{display:unset}
+.zip-find{display:unset;float:left;width:100%;margin:0 0 10px} 
+.zip-find input{width:100%;margin:0}
+.zip-find button{float:left;width:100%;margin-top:5px}
+.find-shelter select{width:100%}
+.shelter-events .row{display:unset;flex:none;width:100%;text-align:center;margin:0}
+.shelter-events .row > div{flex:none;max-width:none;width:50%;display:inline-block;margin:0 -1px}
+.simple-parallax{padding:0}
+.simple-parallax p{padding:0}
+.simple-parallax h3{font-size:35px}
+.shelter-blog .row{display:unset;flex:none;float:left;width:100%;text-align:center;margin:0}
+.shelter-blog .row > div{flex:none;max-width:none;text-align:left;width:50%;display:inline-block;margin:0 -1px}
+.shelter-logos li{width:50%!important}
+.shelter-logos{text-align:center}
+footer .widget{margin:0 0 30px}
+.bottombar p{width:100%;text-align:center;margin:0 0 10px}
+.socials{width:100%;text-align:center}
+.socials a{float:none;display:inline-block;margin:0 5px}
+.text-slide h3{font-size:40px}
+.shelter-join-box.overlap{margin:0}
+.block > .container > .row > div,
+.block > .row > div{margin:0 0 40px}
+.block > .container > .row > div:last-child,
+.block > .row > div:last-child{margin:0}
+.creative-causes .row,
+.shelter-team .row,
+.shelter-donations-boxes .row{display:unset;flex:none;float:left;width:100%;text-align:center;margin:0}
+.creative-causes .row > div,
+.shelter-team .row > div,
+.shelter-donations-boxes .row > div{flex:none;max-width:none;text-align:left;width:50%;display:inline-block;margin:0 -1px}
+.round-icon-btn{position:relative;float:left;width:100%;border-radius:0;transform:none;left:0;top:auto;background:#F4F4F4}
+.round-icon-btn:before{border-radius:0;transform:none}
+.custom-grid2,.custom-grid1{width:100%}
+.event-text{width:100%;margin:0 0 20px}
+.event-count{width:100%}
+.shelter-donations p,.shelter-donations h3{padding:0}
+.find-shelter.style2 .zip-find input{width:100%}
+.upcoming-event{margin:0;width:100%}
+.video-btn .round-icon-btn,
+.video-overlay .round-icon-btn{width:100px;border-radius:50%;float:none}
+.video-btn .round-icon-btn:before,
+.video-overlay .round-icon-btn:before{border-radius:50%;transform:scale(0.9)}
+.shelter-bar h4{max-width:none;width:100%;margin:0 0 20px}
+.modern-causes .row{display:unset;flex:none;float:left;width:100%;text-align:center;margin:0}
+.modern-causes .row > div{flex:none;max-width:none;text-align:left;width:50%;display:inline-block;margin:0 -1px}
+.shelter-bar .btn{max-width:none}
+.shelter-fullpage-title{margin-left:40px}
+.shelter-fullpage-title h3{font-size:32px;margin:0 0 20px}
+.post-img img{width:100%}
+.shelter-call p{font-size:25px;margin:0 0 20px}
+.contact-img{display:unset;float:left;width:100%}
+.shelter-contact{display:unset;float:left}
+.simple-form{display:unset;float:left;width:100%}
+.team-detail{display:unset}
+.abt-img{display:unset;float:left;width:100%}
+.abt-img > img{width:100%;transform:none}
+.team-detail-text{display:unset;float:left;width:100%;padding:0;margin:40px 0 0}
+.team-detail .round-socials{float:left;width:100%;margin:20px 0 0}
+.team-detail-text > h1{font-size:40px}
+.team-detail-text > span{font-size:18px}
+.popup.active .popup-box{top:20px;transform:none;left:20px;width:calc(100% - 40px)}
+.popup{overflow:auto}
+}
+
+
+@media (max-width:767px){
+.block .container,.container{padding:0 15px}	
+.shelter-featured-text h2{font-size:40px}
+.cause-inner{position:relative;float:left;width:100%;transform:none !important;background:#333;padding:40px 20px}
+.cause-text h4{font-size:28px}
+.shelter-events .row > div{width:100%}
+.shelter-blog .row > div{width:100%}
+.shelter-blog .row > div,
+.shelter-events .row > div{padding:0}
+.creative-causes .row > div,
+.shelter-team .row > div,
+.shelter-donations-boxes .row > div{width:100%}
+.creative-cause .cre-cause-img img{width:100%}
+.donations-bottom .shelter-skills{width:100%}
+.donations-bottom .btn{max-width:none;margin-top:30px}
+.fancy-event-details{position:relative;float:left;width:100%;padding:20px}
+.fancy-event span{position:relative;float:left;width:100%;left:0;top:0;border-radius:0}
+.fancy-event-details h3{font-size:18px}
+.bold-text h3{font-size:20px}
+.review-text{float:left;width:100%}
+.fancy-title span{font-size:70px}
+.fancy-title h3{font-size:45px}
+.right-big-text h4{font-size:35px}
+.donator{display:unset !important}
+.donator-info{display:unset;float:left;margin:10px;padding:0;margin:0}
+.donators-carousel{padding:0 50px}
+.modern-causes .row > div{width:100%}
+.video-overlay span{font-size:25px;margin:0 0 10px}
+.video-overlay h3{font-size:30px}
+.fullpage-header{width:50px}
+.fullmenu-btn{width:50px;font-size:28px;height:50px;line-height:50px}
+.blackbar .shelter-name{padding:20px 15px 20px 45px;width:260px}
+body.menu-opened .fullpage-header .sideheader{left:50px;width:230px}
+.become-volunteer{padding:30px 20px}
+.shelter-blog-detail .meta{width:100%;margin:0 0 20px}
+.post-information .round-socials{float:left}
+.shelter-author{display:unset}
+.author-inner{display:unset;float:left;width:100%;margin:20px 0 0;padding:0}
+.shelter-author .round-socials{float:left;width:100%;margin:0 0 15px}
+.comment{display:unset;float:left;width:100%}
+.comment-inner{display:unset;float:left;width:100%;padding:0;margin:20px 0 0}
+.comm-name > h5{float:left;width:100%}
+.comment-inner .date{margin:0 0 20px}
+.shelter-comments li ul{padding:0}
+.cause-detail .cre-cause-img > span{position:relative;float:left;width:100} 
+.cause-detail .cre-cause-img .btn{float:left;width:100%;position:relative;right:0;bottom:0}
+.cre-cause-img .skillbar{z-index:2}
+.contact-name{font-size:26px;padding:20px 30px;width:100%}
+.contact-name span{float:left;width:100%;display:unset;white-space:normal;font-size:13px}
+.breadcrumbs{position:relative;left:0;transform:none;width:auto;width:auto;display:inline-block;margin-top:10px}
+.sideheader{width:270px;right:-270px}
+.sidemenu ul{padding:0 40px}
+}
+
+
+
+@media (max-width:480px){
+.shelter-logos li{width:100%!important}
+.video-text{padding:30px 15px}
+.video-text h3{font-size:27px}
+.text-slide h3{font-size:30px}
+.event-count li{width:50%;margin:10px 0 0}
+.big-text.style2 h3{font-size:35px}
+.shelter-fullpage-title{padding:40px 20px}
+.shelter-fullpage-title h3{font-size:25px}
+.shelter-fullpage-title .btn{padding:10px 30px;font-size:13px}
+.info-list li i, .info-list li span{float:left;width:100%}
+}
+

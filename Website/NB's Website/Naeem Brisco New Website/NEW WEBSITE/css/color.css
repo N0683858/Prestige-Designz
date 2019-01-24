@@ -1,0 +1,68 @@
+/* ========= Color 1 ========== */
+a:hover,
+.shelter-search form button,
+.shelter-text h3 span,
+.meta li a,
+.simple-post-detail .readmore,
+.shelter-join-box span,
+.cre-cause-img span i,
+.round-icon-btn,
+.review-text h4 i,
+.event-text span,
+.time-box p,
+.btn.style4,
+.fancy-title h3,
+.simple-text span,
+.modern-cause span i,
+.title.style2 h2,
+.video-overlay span,
+.client-review span,
+.author-inner > i,
+.subtitle i,
+.urgent-text i,
+.team-detail-text > span,
+.event-info strong,
+.call-now > span i,
+.contact-box h4 i{
+	color:#999;
+}
+
+
+.coloured-bg,
+ul li:before,
+.top-btn,
+.shelter-service.style3,
+.btn,
+.slick-dots li.slick-active button,
+.shelter-event:hover:before, 
+.shelter-event:hover:after,
+.menu-strip,
+.shelter-donations > span,
+.skillbar > .progress .progress-bar,
+.skillbar > .progress .progress-bar span,
+.btn.style3:hover,
+.fancy-event span,
+.donation-box:hover,
+.big-text span,
+.event-text i,
+.social-links,
+.big-text.style2 h3 strong,
+.child-name h3,
+.shelter-pagination ul.pagination li a.current,
+.cat-box,
+.subtitle:before,
+.abt-img,
+.popup-title,
+.wpdonation-button, .donation-figures li a.active,
+.fullmenu-btn,
+.form-btn,
+.blackbar .shelter-name{
+	background-color:#000;
+}
+
+
+.round-icon-btn:before,
+.btn.style4,
+.shelter-pagination ul.pagination li a.current{
+	border-color:#000;
+}

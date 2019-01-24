@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Nexa
+Author: Fontfabric
+Url: http://www.fontsquirrel.com/fonts/nexa
+
+Font: Quicksand
+Author: Andrew Paglinawan
+Url: http://www.fontsquirrel.com/fonts/quicksand
