@@ -9,9 +9,31 @@
   </head>
 
   <body>
-    <h1>Important notes on html and css code</h1>
     <section>
-      <h3>Block vs Inline Elements</h3>
+      <h1>Important notes on html and css code</h1>
+
+      <h3>Index</h3>
+      <ol id="index">
+        <li><a href="#1">Block vs Inline Elements</a></li>
+        <li><a href="#2">CSS Selectors</a></li>
+        <li><a href="#3">Selecting Multiple Elements At Once</a></li>
+        <ul>
+          <li><a href="#4">ID Selector</a></li>
+          <li><a href="#5">Class Selector</a></li>
+          <li><a href="#6">Desendeant Selector</a></li>
+          <li><a href="#7">Adjacent Selector</a></li>
+          <li><a href="#8">Direct Child Selector</a></li>
+        </ul>
+        <li><a href="#9">More types of CSS Selectors</a></li>
+        <ul>
+          <li><a href="#10">Attribute Selector</a></li>
+        </ul>
+      </ol>
+    </section>
+    
+
+    <section>
+      <h3 id="1">Block vs Inline Elements</h3>
       <p>
         There are two types of elements in html, <span>Block</span> or
         <span>Inline</span>. Block level elements take up a whole "block" of
@@ -27,14 +49,14 @@
       </p>
     </section>
     <section>
-      <h3>CSS Selectors</h3>
+      <h3 id="2">CSS Selectors</h3>
       <img src="Img/css_selector_rules.jpg" alt="CSS Selector Rule" />
       <img src="Img/fancy_css.jpg" alt="Fancy CSS" />
 
-      <h2>Selecting Multiple Elements At Once</h2>
+      <h2 id="3">Selecting Multiple Elements At Once</h2>
       <img src="Img/select_multiple_elements.jpg" alt="" />
 
-      <h2>ID Selector</h2>
+      <h4 id="4">ID Selector</h4>
       <p>
         ID selector only selects the element with the corresponding ID, so it is
         important the ID you give each element is UNIQUE. It is also important
@@ -42,30 +64,48 @@
       </p>
       <img src="Img/id_slector.jpg" alt="" />
 
-      <h2>Class Selector</h2>
+      <h4 id="5">Class Selector</h4>
       <p>
         Class selector is similar to ID selector but slightly different as it
         will select multiple (all) elements with the same class name.
       </p>
       <img src="Img/class_selector.jpg" alt="" />
 
-      <h2>Descendant Selector</h2>
+      <h4 id="6">Descendant Selector</h4>
       <p>
         This will select ALL the <span>&lt;a&gt;</span> tags listed somewhere
         inside the <span>&lt;li&gt;</span>.
       </p>
       <img src="Img/descendant_selector.jpg" alt="" />
 
-      <h2>Adjacent Selector</h2>
+      <h4 id="7">Adjacent Selector</h4>
       <img src="Img/adjacent_selector.jpg" alt="" />
 
-      <h2>Direct Child Selector</h2>
+      <h4 id="8">Direct Child Selector</h4>
       <p>
         This will select the <span>&lt;li&gt;</span> that are direct child of
         the <span>&lt;div&gt;</span>, so not nested somewhere inside the
         <span>&lt;div&gt;</span> but a DIRECT child of it.
       </p>
       <img src="Img/direct_child_selector.jpg" alt="" />
+    </section>
+    <section>
+      <h2 id="9">More types of CSS Selectors</h2>
+      <h4 id="10">Attribute Selector</h4>
+      <p>
+        You can find more examples of different attribute selectors on MDN.
+      </p>
+      <img src="Img/atrribute_selector.png" alt="" />
+      <h4>More examples:</h4>
+      <img src="Img/examples_of_attribute_selector.png" alt="">
+      <h4 id="11">Psudo Class</h4>
+      <img src="Img/psudo_class.png" alt="">
+      <p>You can read more on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">MDN</a></p>
+      <h4 id="12">Psudo Elements</h4>
+      <img src="Img/psudo_elements.png" alt="">
+      <h4>Example</h4>
+      <img src="Img/psudo_elements_example.png" alt="">
+      <p>This will select the first letter of ALL h2 in the website and make it bigger.</p>
     </section>
   </body>
 </html>
