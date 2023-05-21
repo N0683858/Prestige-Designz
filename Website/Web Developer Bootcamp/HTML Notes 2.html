@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS Notes 2.css">
+    <title>Html Notes 2</title>
+</head>
+
+<body>
+    <section>
+        <h1>Important notes on html and css code pt.2</h1>
+
+        <h3>Index</h3>
+        <ol id="index">
+            <li><a href="#1">Position Property</a></li>
+            <ul>
+                <li>Static</li>
+                <li><a href="#2">Relative</a></li>
+                <li><a href="#3">Absolute</a></li>
+                <li><a href="#4">Fixed</a></li>
+            </ul>
+            <li><a href="#5">CSS Transitions</a></li>
+        </ol>
+    </section>
+
+    <div>
+        <div id="scrollToTop"><a href="#Top">Top</a></div>
+        <div class="roundedBtn"><a href="HTML Notes.html">Previous Page</a></div>
+    </div>
+
+    <section>
+        <h2 id="1">Position Property</h2>
+        <section id="static">
+            <h4>Static</h4>
+            <div></div>
+            <div class="middle"></div>
+            <div></div>
+            <p>This is the default value. The element is positioned according to the normal
+                flow of the document. The top, right, bottom, left and z-index properties have no effect.</p>
+        </section>
+
+        <section id="relative">
+            <h4 id="2">Relative</h4>
+            <div></div>
+            <div class="middle"></div>
+            <div></div>
+            <p>The element is positioned according to the normal flow of the document, and then offset
+                relative to itself based on the values of top, right, bottom, and left. The offset does not affect the
+                position of any other elements; thus, the space given for the element in the page layout is the same as
+                if position were static. For example, when I set the 'top' and right attribute to 25px, it offset the
+                position of the middle div but the space around it will remain the same.</p>
+        </section>
+
+        <section id="absolute">
+            <h3 id="3">Absolute</h3>
+            <div></div>
+            <div class="middle"></div>
+            <div></div>
+            <p>The element is removed from the normal document flow, and no space is created for the element in the page
+                layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed
+                relative to the initial containing block. Its final position is determined by the values of top, right,
+                bottom, and left. You can see what happens when we set the middle div's position as absolute. You may
+                not be able to see the last div because it is under the middle div since the middle div has been removed
+                from the flow so its not taking up any space.</p>
+
+            <h5>Example 2</h5>
+            <div></div>
+            <div id="absolute2"></div>
+            <div></div>
+            <p>In this example you can see what happens when we set the middle div's 'left' value as 50px. It
+                ignores the document flow and positions itself to the far left to it's ancestor, in this case being the
+                'body'. However, if you also assign a position to the parent element, then it will no longer position
+                itself to the far left but will remove inside the containing block, in this case being the 'section'.
+            </p>
+
+            <section id="absoluteExample">
+                <h5>Example 3</h5>
+                <div></div>
+                <div id="absolute3"></div>
+                <div></div>
+                <p>In this example, you can see what happens when you just give the containing block a 'relative'
+                    position. The middle div is still assigned an absolute position with the 'left' value of 50px but
+                    this time it behaves
+                    differently.</p>
+            </section>
+        </section>
+
+        <section id="fixed">
+            <h3 id="4">Fixed</h3>
+            <div></div>
+            <div class="middle"></div>
+            <div></div>
+            <p>If an element is assigned the property of fixed, then it will be fixed in place. The element is removed
+                from the normal document flow, and no space is created for the element in the page layout. As you can
+                see, the div on the top left stays at the top-left even when we scroll down.</p>
+
+            <p>Another property of position which is similar to fixed is sticky. If an element is assigned the sticky
+                position, it will stay in its place, but when you start scrolling, it will remain in that position on
+                your screen. This is ver useful when making a NavBar.</p>
+        </section>
+    </section>
+
+    <section>
+        <h2 id="5">CSS Transitions</h2>
+    </section>
+</body>
+
+</html>

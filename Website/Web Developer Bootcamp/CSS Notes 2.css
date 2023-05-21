@@ -5,6 +5,11 @@ body {
     font-size: x-large;
 }
 
+h1,
+h2 {
+    text-decoration: underline;
+}
+
 #index {
     font-size: large;
     line-height: 1.5em;
@@ -30,7 +35,7 @@ body {
 
 #scrollToTop a {
     text-decoration: none;
-    color: wheat;
+    color: white;
 }
 
 .roundedBtn {
@@ -54,31 +59,47 @@ body {
     color: white;
 }
 
-h1,
-h2 {
-    text-decoration: underline;
+section div {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(5, 12, 44);
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
 }
 
-span {
-    font-weight: bold;
+.middle {
+    background-color: rgb(5, 250, 229);
 }
 
-#blueSpan {
-    background-color: aqua;
+#relative .middle {
+    position: relative;
+    top: 25px;
+    right: 25px;
 }
 
-/* p:nth-of-type(2)>span:last-of-type {
-    background-color: aqua;
-} */
+#absolute .middle {
+    position: absolute;
+}
 
-/* div:first-of-type{
-    background-color: red;
-    height: 100px;
-    width: 300px;
-} */
+#absolute #absolute2 {
+    background-color: rgb(5, 250, 229);
+    position: absolute;
+    left: 50px;
+}
 
-section>div {
-    background-color: red;
-    height: 100px;
-    width: 300px;
+#absoluteExample {
+    position: relative;
+}
+
+#absoluteExample #absolute3 {
+    background-color: rgb(5, 250, 229);
+    position: absolute;
+    left: 50px;
+}
+
+#fixed .middle {
+    position: fixed;
+    top: 0;
+    left: 0;
 }

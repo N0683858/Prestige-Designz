@@ -1,111 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS Notes.css" />
-    <title>HTML Notes</title>
-  </head>
 
-  <body>
-    <section>
-      <h1>Important notes on html and css code</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS Notes.css" />
+  <title>HTML Notes</title>
+</head>
 
-      <h3>Index</h3>
-      <ol id="index">
-        <li><a href="#1">Block vs Inline Elements</a></li>
-        <li><a href="#2">CSS Selectors</a></li>
-        <li><a href="#3">Selecting Multiple Elements At Once</a></li>
-        <ul>
-          <li><a href="#4">ID Selector</a></li>
-          <li><a href="#5">Class Selector</a></li>
-          <li><a href="#6">Desendeant Selector</a></li>
-          <li><a href="#7">Adjacent Selector</a></li>
-          <li><a href="#8">Direct Child Selector</a></li>
-        </ul>
-        <li><a href="#9">More types of CSS Selectors</a></li>
-        <ul>
-          <li><a href="#10">Attribute Selector</a></li>
-        </ul>
-      </ol>
-    </section>
-    
+<body>
+  <section>
+    <h1>Important notes on html and css code</h1>
 
-    <section>
-      <h3 id="1">Block vs Inline Elements</h3>
-      <p>
-        There are two types of elements in html, <span>Block</span> or
-        <span>Inline</span>. Block level elements take up a whole "block" of
-        space, pushing the other content onto the next line, despite how much
-        content is inside it. Whereas Inline elements fit in alongside other
-        elements.
-      </p>
-      <div>This is a normal div</div>
-      <p>
-        For example <span>&lt;Div&gt;</span> is a block level element and
-        <span>&lt;span&gt;</span> is an example of inline element. E.g.
-        <span>I am a span</span>
-      </p>
-    </section>
-    <section>
-      <h3 id="2">CSS Selectors</h3>
-      <img src="Img/css_selector_rules.jpg" alt="CSS Selector Rule" />
-      <img src="Img/fancy_css.jpg" alt="Fancy CSS" />
+    <h3>Index</h3>
+    <ol id="index">
+      <li><a href="#1">Block vs Inline Elements</a></li>
+      <li><a href="#2">CSS Selectors</a></li>
+      <li><a href="#3">Selecting Multiple Elements At Once</a></li>
+      <ul>
+        <li><a href="#4">ID Selector</a></li>
+        <li><a href="#5">Class Selector</a></li>
+        <li><a href="#6">Descendent Selector</a></li>
+        <li><a href="#7">Adjacent Selector</a></li>
+        <li><a href="#8">Direct Child Selector</a></li>
+      </ul>
+      <li><a href="#9">More types of CSS Selectors</a></li>
+      <ul>
+        <li><a href="#10">Attribute Selector</a></li>
+        <li><a href="#11">Psudo Class</a></li>
+        <li><a href="#12">Psudo Elements</a></li>
+      </ul>
+      <li><a href="#13">Display Property</a></li>
+      <li><a href="#14">CSS Units</a></li>
+      <ul>
+        <li><a href="#15">ems</a></li>
+        <li><a href="#16">rems</a></li>
+      </ul>
+    </ol>
+  </section>
 
-      <h2 id="3">Selecting Multiple Elements At Once</h2>
-      <img src="Img/select_multiple_elements.jpg" alt="" />
+  <div id="scrollToTop"><a href="#Top">Top</a></div>
+  <div class="roundedBtn"><a href="HTML Notes 2.html">Next Page</a></div>
 
-      <h4 id="4">ID Selector</h4>
-      <p>
-        ID selector only selects the element with the corresponding ID, so it is
-        important the ID you give each element is UNIQUE. It is also important
-        not to have too many unnecessary IDs inside your html doc.
-      </p>
-      <img src="Img/id_slector.jpg" alt="" />
+  <section>
+    <h3 id="1">Block vs Inline Elements</h3>
+    <p>
+      There are two types of elements in html, <span>Block</span> or
+      <span>Inline</span>. Block level elements take up a whole "block" of
+      space, pushing the other content onto the next line, despite how much
+      content is inside it. Whereas Inline elements fit in alongside other
+      elements.
+    </p>
+    <div>This is a normal div</div>
+    <p>
+      For example <span>&lt;Div&gt;</span> is a block level element and
+      <span>&lt;span&gt;</span> is an example of inline element. E.g.
+      <span id="blueSpan">I am a span</span>
+    </p>
+    <img src="Img/inline_and_block_elements.png" alt="">
+  </section>
+  <section>
+    <h3 id="2">CSS Selectors</h3>
+    <img src="Img/css_selector_rules.jpg" alt="CSS Selector Rule" />
+    <img src="Img/fancy_css.jpg" alt="Fancy CSS" />
 
-      <h4 id="5">Class Selector</h4>
-      <p>
-        Class selector is similar to ID selector but slightly different as it
-        will select multiple (all) elements with the same class name.
-      </p>
-      <img src="Img/class_selector.jpg" alt="" />
+    <h2 id="3">Selecting Multiple Elements At Once</h2>
+    <img src="Img/select_multiple_elements.jpg" alt="" />
 
-      <h4 id="6">Descendant Selector</h4>
-      <p>
-        This will select ALL the <span>&lt;a&gt;</span> tags listed somewhere
-        inside the <span>&lt;li&gt;</span>.
-      </p>
-      <img src="Img/descendant_selector.jpg" alt="" />
+    <h4 id="4">ID Selector</h4>
+    <p>
+      ID selector only selects the element with the corresponding ID, so it is
+      important the ID you give each element is UNIQUE. It is also important
+      not to have too many unnecessary IDs inside your html doc.
+    </p>
+    <img src="Img/id_slector.jpg" alt="" />
 
-      <h4 id="7">Adjacent Selector</h4>
-      <img src="Img/adjacent_selector.jpg" alt="" />
+    <h4 id="5">Class Selector</h4>
+    <p>
+      Class selector is similar to ID selector but slightly different as it
+      will select multiple (all) elements with the same class name.
+    </p>
+    <img src="Img/class_selector.jpg" alt="" />
 
-      <h4 id="8">Direct Child Selector</h4>
-      <p>
-        This will select the <span>&lt;li&gt;</span> that are direct child of
-        the <span>&lt;div&gt;</span>, so not nested somewhere inside the
-        <span>&lt;div&gt;</span> but a DIRECT child of it.
-      </p>
-      <img src="Img/direct_child_selector.jpg" alt="" />
-    </section>
-    <section>
-      <h2 id="9">More types of CSS Selectors</h2>
-      <h4 id="10">Attribute Selector</h4>
-      <p>
-        You can find more examples of different attribute selectors on MDN.
-      </p>
-      <img src="Img/atrribute_selector.png" alt="" />
-      <h4>More examples:</h4>
-      <img src="Img/examples_of_attribute_selector.png" alt="">
-      <h4 id="11">Psudo Class</h4>
-      <img src="Img/psudo_class.png" alt="">
-      <p>You can read more on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">MDN</a></p>
-      <h4 id="12">Psudo Elements</h4>
-      <img src="Img/psudo_elements.png" alt="">
-      <h4>Example</h4>
-      <img src="Img/psudo_elements_example.png" alt="">
-      <p>This will select the first letter of ALL h2 in the website and make it bigger.</p>
-    </section>
-  </body>
+    <h4 id="6">Descendant Selector</h4>
+    <p>
+      This will select ALL the <span>&lt;a&gt;</span> tags listed somewhere
+      inside the <span>&lt;li&gt;</span>.
+    </p>
+    <img src="Img/descendant_selector.jpg" alt="" />
+
+    <h4 id="7">Adjacent Selector</h4>
+    <img src="Img/adjacent_selector.jpg" alt="" />
+
+    <h4 id="8">Direct Child Selector</h4>
+    <p>
+      This will select the <span>&lt;li&gt;</span> that are direct child of
+      the <span>&lt;div&gt;</span>, so not nested somewhere inside the
+      <span>&lt;div&gt;</span> but a DIRECT child of it.
+    </p>
+
+    <img src="Img/direct_child_selector.jpg" alt="" />
+  </section>
+
+  <section>
+    <h2 id="9">More types of CSS Selectors</h2>
+    <h4 id="10">Attribute Selector</h4>
+    <p>You can find more examples of different attribute selectors on MDN.</p>
+    <img src="Img/atrribute_selector.png" alt="" />
+    <h4>More examples:</h4>
+    <img src="Img/examples_of_attribute_selector.png" alt="" />
+    <h4 id="11">Psudo Class</h4>
+    <img src="Img/psudo_class.png" alt="" />
+    <p>
+      You can read more on
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">MDN</a>
+    </p>
+    <h4 id="12">Psudo Elements</h4>
+    <img src="Img/psudo_elements.png" alt="" />
+    <h4>Example</h4>
+    <img src="Img/psudo_elements_example.png" alt="" />
+    <p>
+      This will select the first letter of ALL h2 in the website and make it
+      bigger.
+    </p>
+  </section>
+  <section>
+    <h2 id="13">Display Property</h2>
+    <p>You can use the display property to change an inline element to a block
+      element and vise versa.</p>
+    <img src="Img/display_property.png" alt="">
+
+    <p>If you usually try to use padding, margin and height etc on a inline element
+      such as a span, it will be ignored. However, if you use 'Inline-Block' (Green
+      divs) it will respect those attributes.</p>
+
+    <img class="inlineBlock" src="Img/img1.png" alt="">
+    <img src="Img/inline_block_example.png" alt="">
+
+    <p>One thing to note is that you can hide elements by setting the display property
+      to none. Using JavaScript you can set certain conditions to when some elements
+      should be displayed and when some should be hidden. For example,some features are
+      available to only the admin and not regular users.</p>
+  </section>
+  <section>
+    <h2 id="14">CSS Units</h2>
+    <img src="Img/css_units.png" alt="" />
+    <p>There are two types of different units used in CSS. Absolute units are fixed,
+      they remain the same no matter the screen size, however Relative units are
+      responsive to the screen size and scale up or down depending on what screen
+      size you are using to view the page.</p>
+    <img src="Img/percentage_units.png" alt="">
+
+    <h4 id="15">ems</h4>
+    <img src="Img/ems.png" alt="">
+    <p>One of the issues with using ems is that it can stack when using elements that
+      are nested inside each other. For example you style a nested unordered list using
+      ems, each <span>li</span> element will inherit the text size from he parent being
+      the <span>ul</span>, and with each ul inside the nested list, the li elements will
+      grow.</p>
+    <img src="Img/ems_problem.png" alt="">
+
+    <h4 id="16">rems</h4>
+    <img src="Img/rems.png" alt="">
+  </section>
+
+</body>
+
 </html>
