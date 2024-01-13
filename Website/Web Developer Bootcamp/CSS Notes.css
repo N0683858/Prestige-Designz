@@ -8,6 +8,11 @@ body {
 #index {
     font-size: large;
     line-height: 1.5em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 20px;
 }
 
 #index a {
@@ -15,7 +20,12 @@ body {
     color: black;
 }
 
-#scrollToTop {
+#index a:hover {
+    color: #E3651D;
+    text-shadow: #E3651D 1px 0 10px;
+}
+
+/* #scrollToTop {
     position: fixed;
     right: 50px;
     bottom: 50px;
@@ -31,9 +41,32 @@ body {
 #scrollToTop a {
     text-decoration: none;
     color: wheat;
+} */
+
+button {
+    border: 2.5px solid;
+    color: #940B92;
+    padding: 1em 2em;
+    background: none;
+    font-size: 0.7em;
+    border-radius: 20px;
+    transition: all 0.25s;
 }
 
-.roundedBtn {
+button:hover {
+    border-color: #E3651D;
+    box-shadow: 0 0.5em 0.5em -0.4em #E3651D;
+    transform: translateY(-0.10em);
+    color: #E3651D;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+}
+
+
+/* .roundedBtn {
     border: 1px solid black;
     padding: 5px;
     padding-left: 15px;
@@ -52,7 +85,7 @@ body {
 .roundedBtn a:visited {
     text-decoration: none;
     color: white;
-}
+} */
 
 h1,
 h2 {

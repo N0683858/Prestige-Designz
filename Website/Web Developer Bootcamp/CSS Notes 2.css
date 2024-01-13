@@ -10,9 +10,18 @@ h2 {
     text-decoration: underline;
 }
 
+span {
+    font-weight: bold;
+}
+
 #index {
     font-size: large;
     line-height: 1.5em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 20px;
 }
 
 #index a {
@@ -20,7 +29,12 @@ h2 {
     color: black;
 }
 
-#scrollToTop {
+#index a:hover {
+    color: #E3651D;
+    text-shadow: #E3651D 1px 0 10px;
+}
+
+/* #scrollToTop {
     position: fixed;
     right: 50px;
     bottom: 50px;
@@ -36,9 +50,9 @@ h2 {
 #scrollToTop a {
     text-decoration: none;
     color: white;
-}
+} */
 
-.roundedBtn {
+/* .roundedBtn {
     border: 1px solid black;
     padding: 5px;
     padding-left: 15px;
@@ -47,9 +61,32 @@ h2 {
     background-color: black;
     color: white;
     display: inline-block;
+} */
+
+button {
+    border: 2.5px solid;
+    color: #940B92;
+    padding: 1em 2em;
+    background: none;
+    font-size: 0.7em;
+    border-radius: 20px;
+    transition: all 0.25s;
 }
 
-.roundedBtn a {
+button:hover {
+    border-color: #E3651D;
+    box-shadow: 0 0.5em 0.5em -0.4em #E3651D;
+    transform: translateY(-0.10em);
+    color: #E3651D;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+}
+
+
+/* .roundedBtn a {
     text-decoration: none;
     color: white;
 }
@@ -57,7 +94,9 @@ h2 {
 .roundedBtn a:visited {
     text-decoration: none;
     color: white;
-}
+} */
+
+
 
 section div {
     width: 150px;
@@ -67,6 +106,9 @@ section div {
     margin: 10px;
     display: inline-block;
 }
+
+
+/* ############# Position Properties ################### */
 
 .middle {
     background-color: rgb(5, 250, 229);
@@ -102,4 +144,130 @@ section div {
     position: fixed;
     top: 0;
     left: 0;
+}
+
+/* ###############  Transition Properties ###################### */
+
+.circle1 {
+    height: 300px;
+    width: 300px;
+    background-color: magenta;
+}
+
+.circle1:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.circle2 {
+    height: 300px;
+    width: 300px;
+    background-color: magenta;
+    transition: 1s;
+}
+
+.circle2:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.circle3 {
+    height: 300px;
+    width: 300px;
+    background-color: magenta;
+    transition: background-color 2s;
+}
+
+.circle3:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.circle4 {
+    height: 300px;
+    width: 300px;
+    background-color: magenta;
+    transition: background-color 1s, border-radius 3s;
+}
+
+.circle4:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+#timingFunction div {
+    display: block;
+    background-color: turquoise;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+
+#timingFunction:hover div {
+    margin-left: 500px;
+}
+
+#timingFunctionExample div:nth-of-type(1) {
+    transition-timing-function: ease-in;
+}
+
+#timingFunctionExample div:nth-of-type(2) {
+    transition-timing-function: ease-out;
+}
+
+#timingFunctionExample div:nth-of-type(3) {
+    transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+#timingFunctionExample div:nth-of-type(4) {
+    transition-timing-function: cubic-bezier(0.84, 0, 0.15. 1);
+}
+
+
+/* ###############  Transform Properties ###################### */
+
+#transformFunctions h1 {
+    text-decoration: none;
+    background-color: #2a9d8f;
+    border: 5px solid #264653;
+    color: #eae2b7;
+    padding: 0.7em;
+    width: 500px;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: lighter;
+}
+
+#transformFunctions section h1:nth-of-type(2) {
+    background-color: #e9c46a;
+}
+
+#transformFunctions section h1:nth-of-type(3) {
+    background-color: #f4a261;
+}
+
+#transformFunctions section h1:nth-of-type(4) {
+    background-color: #e76f51;
+}
+
+/* Transforming functions */
+#transformFunctions section:first-of-type h1:nth-of-type(1) {
+    transform: rotate(10deg);
+    transform-origin: bottom right;
+}
+
+#transformFunctions section:first-of-type h1:nth-of-type(2) {
+    transform: scale(0.5);
+}
+
+#transformFunctions section:first-of-type h1:nth-of-type(3) {
+    transform: translate(200px, -50px);
+}
+
+#transformFunctions section:first-of-type h1:nth-of-type(4) {
+    transform: skew(30deg);
+}
+
+#transformFunctions section:nth-of-type(2) h1:nth-of-type(1) {
+    transform: translateX(-200px) rotate(-20deg) scale(0.5);
 }

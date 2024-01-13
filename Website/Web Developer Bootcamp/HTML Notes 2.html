@@ -10,26 +10,37 @@
 </head>
 
 <body>
-    <section>
-        <h1>Important notes on html and css code pt.2</h1>
 
+    <h1>Important notes on html and css code pt.2</h1>
+    <section id="index">
         <h3>Index</h3>
-        <ol id="index">
+
+        <ol>
             <li><a href="#1">Position Property</a></li>
             <ul>
-                <li>Static</li>
+                <li><a href="#1">Static</a></li>
                 <li><a href="#2">Relative</a></li>
                 <li><a href="#3">Absolute</a></li>
                 <li><a href="#4">Fixed</a></li>
             </ul>
             <li><a href="#5">CSS Transitions</a></li>
+            <ul>
+                <li><a href="#6">Singling out property</a></li>
+                <li><a href="#7">Adding Delay</a></li>
+                <li><a href="#8">Transition Timing Function</a></li>
+                <li><a href="#9">Transforming Functions</a></li>
+            </ul>
         </ol>
+
+        <a href="HTML Notes.html"><button>Previous</button></a>
+        <a href="#Top"><button>Top</button></a>
+
     </section>
 
-    <div>
+    <!-- <div>
         <div id="scrollToTop"><a href="#Top">Top</a></div>
         <div class="roundedBtn"><a href="HTML Notes.html">Previous Page</a></div>
-    </div>
+    </div> -->
 
     <section>
         <h2 id="1">Position Property</h2>
@@ -50,8 +61,9 @@
             <p>The element is positioned according to the normal flow of the document, and then offset
                 relative to itself based on the values of top, right, bottom, and left. The offset does not affect the
                 position of any other elements; thus, the space given for the element in the page layout is the same as
-                if position were static. For example, when I set the 'top' and right attribute to 25px, it offset the
+                if position were static. For example, when I set the 'top' and 'right' attribute to 25px, it offset the
                 position of the middle div but the space around it will remain the same.</p>
+            <img src="Img/position_relative.png" alt="">
         </section>
 
         <section id="absolute">
@@ -65,6 +77,7 @@
                 bottom, and left. You can see what happens when we set the middle div's position as absolute. You may
                 not be able to see the last div because it is under the middle div since the middle div has been removed
                 from the flow so its not taking up any space.</p>
+            <img src="Img/position_absolute.png" alt="">
 
             <h5>Example 2</h5>
             <div></div>
@@ -75,6 +88,7 @@
                 'body'. However, if you also assign a position to the parent element, then it will no longer position
                 itself to the far left but will remove inside the containing block, in this case being the 'section'.
             </p>
+            <img src="Img/position_absolute2.png" alt="">
 
             <section id="absoluteExample">
                 <h5>Example 3</h5>
@@ -86,6 +100,7 @@
                     this time it behaves
                     differently.</p>
             </section>
+            <img src="Img/position_absolute3.png" alt="">
         </section>
 
         <section id="fixed">
@@ -100,11 +115,125 @@
             <p>Another property of position which is similar to fixed is sticky. If an element is assigned the sticky
                 position, it will stay in its place, but when you start scrolling, it will remain in that position on
                 your screen. This is ver useful when making a NavBar.</p>
+            <img src="Img/position_fixed.png" alt="">
         </section>
     </section>
 
+
+
+    <!--####################### Transition Properties Section ##############################-->
+
+
     <section>
         <h2 id="5">CSS Transitions</h2>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <p>Transition property helps transform elements on the webpage. The first square div changes into a circle
+            immediately when you hover over it, almost flickers into a circle. However as you can see the second div
+            slowly transitions into a circle because it has the transition property set to 1 second. The seconds
+            indicate on how quickly you want the transition to happen.</p>
+        <img src="Img/Circle_Transistion1.png" alt="">
+
+        <h3 id="6">Singling out property</h3>
+        <div class="circle3"></div>
+        <p>You can single out the property you want the transition effect to take effect on. For example, if you wanted
+            just the background color to take 2s to transition, you can single it out by specifying i.e.
+            <span>transition: background-color 2s.</span> This will only effect the background and the square will
+            flicker into a circle.</p>
+        <img src="Img/Circle_Transistion3.png" alt="">
+
+        <h3 id="7">Adding Delay</h3>
+        <div class="circle4"></div>
+        <p>You can add a delay to all properties before they transition or single out each element you want delayed. For
+            example, you can add 1 second delay to the background property and 3 second delay to the border radius
+            property. As you can see the background color changes before the border radius.</p>
+        <img src="Img/Circle_Transistion4.png" alt="">
+        <br />
+
+        <section id="timingFunction">
+            <h3 id="8">Transition Timing Function</h3>
+            <img src="Img/transition_timing_functions.png" alt=""> <br />
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function">Examples on
+                MDN</a>
+            <p>In this section we will talk about different ways we can transition from point A to point B. The example
+                below shows a normal transitioning of divs that moves 500px to the right when you hover over them.
+            </p>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <img src="Img/timing_function1.png" alt="">
+
+            <section id="timingFunctionExample">
+                <h4>Example</h4>
+                <p>Below are few examples of transition timing functions being used. As you can see they reach the same
+                    end point at the exact same time, however transition to that end point in different ways. You can
+                    find different websites which display different types of timing functions you can use.</p>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <img src="Img/transition_timing_functions_examples.png" alt="">
+            </section>
+
+        </section>
+
+        <!-- ################ Transform functions ################### -->
+        <section id="transformFunctions">
+            <h3 id="9">Transforming Functions</h3>
+            <p>Transforming functions gives us the ability to animate the elements such as, rotate them, scale and
+                stretch them, translate or skew them across our screens, horizontally or vertically.</p>
+            <img src="Img/transform.png" alt="">
+            <p>Read more on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform">MDN</a>
+            </p>
+
+            <img src="Img/transform_example1.png" alt="">
+            <img src="Img/transform_example1_code.png" alt="">
+            <p>When you use the transform property, it usually uses the middle of the element as the starting point.
+                However, you can use the 'transform-origin' property to decide where you want center/starting point to
+                be, top right, bottom left etc. The example above shows of a default starting point of a element using
+                the rotate property.</p>
+
+            <h4>Few examples of transforming functions:</h4>
+            <section>
+                <h4>Rotate</h4>
+                <h1>Transform Example</h1>
+                <p>This example is also using the transform function to rotate the element but using the
+                    'transform-origin' to change the center/starting point to the bottom left and you can see how it
+                    behaves differently. There are different ways you can use the rotate property, such as rotate on the
+                    Y-axis or the X-axis which will rotate the element differently.</p>
+                <img src="Img/transform_example1_code2.png" alt="">
+                <h4>Scale</h4>
+                <h1>Transform Example</h1>
+                <img src="Img/transform_scale_code.png" alt="">
+                <p>Here we use the scale property to transform the element on Y and X axis. We could also scale the
+                    width and the height separate if we pass in two values or use the 'scaleX' or 'scaleY'.</p>
+                <img src="Img/transform_scale_code2.png" alt="">
+                <h4>Translate</h4>
+                <h1>Transform Example</h1>
+                <p>Translate allows us to move the element horizontally (using translateX) or vertically (using
+                    translateY) or both (using translate but passing the vertical and horizontal values). You can see
+                    how the element behaves when we try to move it 200px right and 50px up,</p>
+                <img src="Img/transform_translate.png" alt="">
+                <h4>Skew</h4>
+                <p>The skew property will skew the element on a 2D plane horizontally and/or vertically. We also have
+                    skewX and skewY which will focus the element transformation on the Y or X axis only.</p>
+                <h1>Transform Example</h1>
+                <img src="Img/transform_skew.png" alt="">
+            </section>
+
+            <h4>More examples:</h4>
+            <section>
+                <h1>Transform Example</h1>
+                <p>Here we combine three different transforming functions on the element. Rotate, Scale and Translate.
+                </p>
+                <img src="Img/transform_combine.png" alt="">
+            </section>
+
+        </section>
+
+
     </section>
 </body>
 
