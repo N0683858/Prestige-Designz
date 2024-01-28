@@ -1,0 +1,5 @@
+Fonts used in this design:
+
+Font: Lato
+Author: tyPoland Lukasz Dziedzic
+Url: http://www.fontsquirrel.com/fonts/lato
