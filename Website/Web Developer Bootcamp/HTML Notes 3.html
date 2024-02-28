@@ -15,20 +15,28 @@
         <h3>Index</h3>
 
         <ol>
-            <li><a href="#1">What is Flex Box?</a></li>
+            <li><a href="#Top">What is Flex Box?</a></li>
+            <li><a href="#1">Flex Direction</a></li>
             <ul>
-                <li><a href="#1">Static</a></li>
-                <li><a href="#2">Relative</a></li>
-                <li><a href="#3">Absolute</a></li>
-                <li><a href="#4">Fixed</a></li>
+                <li><a href="#2">Row</a></li>
+                <li><a href="#3">Column</a></li>
             </ul>
-            <li><a href="#5">CSS Transitions</a></li>
+            <li><a href="#4">Justify Content</a></li>
             <ul>
-                <li><a href="#6">Singling out property</a></li>
-                <li><a href="#7">Adding Delay</a></li>
-                <li><a href="#8">Transition Timing Function</a></li>
-                <li><a href="#9">Transforming Functions</a></li>
+                <li><a href="#4">Flex Start/End</a></li>
+                <li><a href="#5">Center</a></li>
+                <li><a href="#6">Space Between/Around</a></li>
+                <li><a href="#7">Space Evenly</a></li>
             </ul>
+            <li><a href="#8">Flex Wrap</a></li>
+            <ul>
+                <li><a href="#9">Align Items</a></li>
+                <li><a href="#10">Align Content</a></li>
+                <li><a href="#11">Align Self</a></li>
+            </ul>
+            <li><a href="#12">Flex-Basis, Grow & Shrink</a></li>
+            <li><a href="#13">Media Queries</a></li>
+            <li><a href="#">CSS Transitions</a></li>
         </ol>
 
         <a href="HTML Notes 2.html"><button>Previous</button></a>
@@ -38,8 +46,149 @@
     <section>
         <h2>What is Flex Box?</h2>
         <p>Flexbox is a one-dimensional layout method for laying out items in rows or columns. Flexbox allows us to
-            distribute space dynamically across elements of an unknown size, hence the term 'flex'. It allows us to
-            control how much space each element should take up on the screen. </p>
+            distribute space dynamically across elements of an unknown size, hence the term 'flex'. It gives us
+            control over how much space each element should take up on the screen.</p>
+        <p>You can watch a Youtube video on how
+            it works <a href="https://www.youtube.com/watch?v=phWxA89Dy94&ab_channel=SlayingTheDragon">here.</a></p>
+
+        <h3>Example 1</h3>
+        <img src="Img/flex_example.png" alt="">
+        <img src="Img/flex_example_code.png" alt="">
+        <p>Here you can see 5 div's inside a container that are overflowing as we have set the height and width to 200px
+            which results in them being too big for all of them to fit inside the container.</p>
+        <h3>Example 2</h3>
+        <img src="Img/flex_example2.png" alt="">
+        <img src="Img/flex_example2_code.png" alt="">
+        <p>However, if we give the container used in the first example, the 'flex' property it changes how the elements
+            inside it behave. As you can now see, all the divs are inside a container in a row. Giving the container the
+            'flex' property just means we are going to use flex related properties inside this container.</p>
+
+        <hr />
+        <h2 id="1">Flex Direction</h2>
+        <p>In flex box, by default the elements are set on the Y-axis (horizontal), however we can change the direction
+            we want the elements to be displayed.</p>
+        <img src="Img/the_flex_model.png" alt="">
+        <h3 id="2">Row</h3>
+        <p>The <span>'flex-direction'</span> property allows us to decide which axis direction we want our elements to
+            be displayed. The default flex direction is <span>'row'</span>. Another of the property we can use to change
+            the direction is called <span>'row-reverse'</span> which as the name implies, reverses the row of elements.
+        </p>
+        <img src="Img/flex_direction_row-reverse.png" alt="">
+        <img src="Img/flex_direction_row-reverse_example.png" alt="">
+        <hr>
+        <h3 id="3">Column</h3>
+        <p>Another way to display elements inside a flexbox is by displaying them the X-axis (vertically). We can do
+            this by giving the flex-direction property a value of <span>'column'</span> and
+            <span>'column-reverse'</span> if we want the columns to be displayed in reverse.</p>
+        <img src="Img/flex_direction_column.png" alt="">
+        <img src="Img/flex_direction_column_example.png" alt="">
+        <p>As you can see, the divs elements aren't 200x200 anymore, that's because we set a hight on the container of
+            500px, so the flexbox makes the div elements smaller to fit inside the container. If we make the container
+            bigger, then the div elements will also grow (maximum they will grow to 200x200).</p>
+        <hr>
+        <h2 id="4">Justify Content</h2>
+        <h3>Flex Start/End</h3>
+        <img src="Img/flex_end.png" alt="">
+        <img src="Img/flex_start.png" alt="">
+        <p>Flex start will push the content to the right, the start of the container, and "flex-end" will push the
+            content to the end of the container.</p>
+        <hr>
+        <h3 id="5">Center</h3>
+        <img src="Img/flex_center.png" alt="">
+        <p>This will center all the content between both axis.</p>
+        <hr>
+        <h3 id="6">Space Between/Around</h3>
+        <img src="Img/flex_space_between.png" alt="">
+        <p><span>Space between</span> takes all the empty space, and distributes in in between the elements, but not on
+            the outside
+            edges. <span>Space around</span> distributes the empty space equally "around" each element, but it looks a
+            little weird.
+        </p>
+        <img src="Img/flex_space_around.png" alt="">
+        <hr>
+        <h3 id="7">Space Evenly</h3>
+        <img src="Img/flex_space_evenly.png" alt="">
+        <img src="Img/flex_space_evenly_code.png" alt="">
+        <p>Space evenly ensures all the empty space is distributed evenly between all the elements in the container.</p>
+        <hr>
+
+        <h2 id="8">Flex Wrap</h2>
+        <img src="Img/flex_wrap.png" alt="">
+        <p>When you have too much content inside the container, flexbox will shrink it to make it all fit. However, this
+            will change thw size of the content i.e divs which is not how you intended it to look.</p>
+        <img src="Img/flex_wrap_example.png" alt="">
+        <p> So flexbox has a property called <span>flex-wrap</span> which will push the remaining content onto the next
+            row/column while respecting the original width and size you assigned the content. Or you can use
+            <span>wrap-reverse</span> so the content is wrapped in reverse on the <span>opposite axis.</span>.</p>
+        <img src="Img/flex_wrap_example1.png" alt="">
+
+        <hr>
+
+        <h2 id="9">Align Items</h2>
+        <p>Align items is something we use to distribute our items/content, similar to justify content, however on the
+            Y-axis, whereas justify content distributes space on the main (X-axis).</p>
+        <p>It also has similar properties such as <span>flex-start, center, flex-end.</span></p>
+        <img src="Img/flex_baseline.png" alt="">
+        <p>One extra value it takes is called <span>baseline</span> which aligns the content using the baseline of our
+            text.</p>
+
+        <hr>
+
+        <h2 id="10">Align Content</h2>
+        <p>Align content is used to distribute <span>empty space</span> between the cross axis only when we have
+            multiple rows/columns. It only takes effect when you have <span>wrap</span> or (wrap reserver) turned on. As
+            you can see in the example below, where are 3 columns and when you assign
+            <span>align-content:space-between</span> it distributes the empty space equally in between the content.</p>
+        <img src="Img/align_content_spacebetween.png" alt="">
+        <p>
+            Similarly, if you use the other values such as <span>flex-start</span> it will align the content to the
+            start of the container but the 2 rows still remain.
+        </p>
+        <img src="Img/align_content_flex_start.png" alt="">
+        <hr>
+        <h3 id="11">Align Self</h3>
+        <p>Align self is very similar to align items, except its a property we add to individual items or elements which
+            are <span>not</span> in the flex containers. We can change the alignment along the cross axis for a single
+            element.</p>
+        <img src="Img/align_self.png" alt="">
+        <p> As you can see in the example above, all the elements are aligned to the top of the container as
+            they have the value of <span>flex-start</span>, however the second element is given the
+            <span>align-self</span> property with the value of <span>flex-end</span>.</p>
+
+        <hr>
+        <h3 id="12">Flex-Basis, Grow & Shrink</h3>
+        <img src="Img/flex_shorthand.png" alt="">
+        <p><span>Flex</span> property is a shorthand for flex-basis, flex-grow and flex-shrink. You can pass in few
+            different values. </p>
+
+        <h4>Flex-Basis</h4>
+        <img src="Img/flex_basis.png" alt="">
+        <p>Flex basis basically sets the initial size of the element you want it to be, ignoring the width or
+            height, depending on what the main axis is. When there is a flex item, it will automatically have flex
+            basis. The default value is set to <span>auto</span>.</p>
+
+        <h4>Flex-Grow</h4>
+        <img src="Img/flex_grow.png" alt="">
+        <p>Flex grow allows you to decide how much empty space an <span>individual</span> element should take up. You
+            may want the first dive to take up twice as more space as the second div. You can do this by using the
+            flex-grow property as it allows elements to grow when there is more space available.</p>
+        <img src="Img/flex_grow_example.png" alt="">
+
+        <h4>Flex-Shrink</h4>
+        <img src="Img/flex_shrink.png" alt="">
+        <p>When there is not enough space in the container, flex-shrink determines how much you want an element to
+            shrink compared to other elements in the container. If you give an element the value of 0, it will not
+            shrink.</p>
+        <img src="Img/flex_shrink_example.png" alt="">
+        <hr>
+    </section>
+
+    <section>
+        <h3>Media Queries</h3>
+        <p>Media Queries allow us to modify our stylesheets (the way the website should look) depending on certain
+            parameters such as screen size, device type (mobile, tablet etc) or device orientation (portrait/landscape).
+        </p>
+        <img src="Img/media_queries.png" alt="">
     </section>
 </body>
 

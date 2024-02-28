@@ -33,7 +33,9 @@ span {
     text-shadow: #E3651D 1px 0 10px;
 }
 
-
+span {
+    font-weight: bold;
+}
 
 button {
     border: 2.5px solid;
